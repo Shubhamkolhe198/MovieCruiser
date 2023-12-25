@@ -92,7 +92,7 @@ public class FrontController {
 		movie.setTitle(title);
 		movie.setActive(active);
 		movie.setGenre(genre);
-		movie.setHasTeaser(string);
+		movie.sethasTeaser(string);
 		movie.setBoxOffice(boxOffice);;
 		movieService.editMovie(movie);
 		return "edit-movie-status.jsp";

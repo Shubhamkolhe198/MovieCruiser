@@ -66,70 +66,70 @@ public class Movie {
 	}
 
 	
-//	public int getId() {
-//		return id;
-//	}
-//	public void setId(int id) {
-//		this.id = id;
-//	}
-//	public String getTitle() {
-//		return title;
-//	}
-//	public void setTitle(String title) {
-//		this.title = title;
-//	}
-//	public String getBoxOffice() {
-//		return boxOffice;
-//	}
-//	public void setBoxOffice(String boxOffice) {
-//		this.boxOffice = boxOffice;
-//	}
-//	public String getActive() {
-//		return active;
-//	}
-//	public void setActive(String string) {
-//		this.active = string;
-//	}
-//	public String getDateOfLaunch() {
-//		return dateOfLaunch;
-//	}
-//	public void setDateOfLaunch(String string) {
-//		this.dateOfLaunch = string;
-//	}
-//	public String getGenre() {
-//		return genre;
-//	}
-//	public void setGenre(String genre) {
-//		this.genre = genre;
-//	}
-//	public String gethasTeaser() {
-//		return hasTeaser;
-//	}
-//	public void sethasTeaser(String string) {
-//		this.hasTeaser = string;
-//	}
-//	@Override
-//	public String toString() {
-//		if(dateOfLaunch==null) {
-//			return "Movie [id=" + id + ", title=" + title + ",  boxOffice=" + boxOffice +", genre=" + genre + ", hasTeaser=" + hasTeaser + "]";
-//			
-//		}
-//		return "Movie [id=" + id + ", title=" + title + ", boxOffice=" + boxOffice + ", active=" + active + ", dateOfLaunch="
-//				+ dateOfLaunch + ", genre=" + genre + ", hasTeaser=" + hasTeaser + "]";
-//	}
-	
-//	@Override
-//	public boolean equals(Object obj) {
-//		if (this == obj)
-//			return true;
-//		if (obj == null)
-//			return false;
-//		if (getClass() != obj.getClass())
-//			return false;
-//		Movie other = (Movie) obj;
-//		if (id != other.id)
-//			return false;
-//		return true;
-//	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public String getBoxOffice() {
+		return boxOffice;
+	}
+	public void setBoxOffice(String boxOffice) {
+		this.boxOffice = boxOffice;
+	}
+	public String getActive() {
+		return active;
+	}
+	public void setActive(String string) {
+		this.active = string;
+	}
+	public String getDateOfLaunch() {
+		return dateOfLaunch;
+	}
+	public void setDateOfLaunch(String string) {
+		this.dateOfLaunch = string;
+	}
+	public String getGenre() {
+		return genre;
+	}
+	public void setGenre(String genre) {
+		this.genre = genre;
+	}
+	public String gethasTeaser() {
+		return hasTeaser;
+	}
+	public void sethasTeaser(String string) {
+		this.hasTeaser = string;
+	}
+	@Override
+	public String toString() {
+		if(dateOfLaunch==null) {
+			return "Movie [id=" + id + ", title=" + title + ",  boxOffice=" + boxOffice +", genre=" + genre + ", hasTeaser=" + hasTeaser + "]";
+			
+		}
+		return "Movie [id=" + id + ", title=" + title + ", boxOffice=" + boxOffice + ", active=" + active + ", dateOfLaunch="
+				+ dateOfLaunch + ", genre=" + genre + ", hasTeaser=" + hasTeaser + "]";
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Movie other = (Movie) obj;
+		if (id != other.id)
+			return false;
+		return true;
+	}
 	
 }
